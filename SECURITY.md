@@ -17,7 +17,7 @@ Please always use the latest official release from GitHub.
 
 ## Scope of Security
 
-OpenKeyFlow is a local-first, offline desktop app. All data is stored locally and encrypted via AES.
+OpenKeyFlow is a local-first, offline desktop app. All data is stored locally and will soon be encrypted via AES.
 
 You can help us improve by reporting any of the following:
 - Flaws in encryption or insecure file handling
