@@ -89,7 +89,7 @@ Q: Will there be updates?
 A: Definitely. I am one person building this and I have a full time job so updates/fixes may take longer than expected. If you have suggestions of your own, feel free to reach out! 
 _____________________________________________________________
 
-If you have any questions/comments about the project, email me at github@conormail.slmail.me.
+If you have any questions/comments about the project, email me at github@connormail.slmail.me.
 
 **OpenKeyFlow is distributed under the GNU GPL v3 license and intended for lawful, ethical use only.**
 
