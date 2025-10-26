@@ -1,7 +1,8 @@
 # OpenKeyFlow
 **Free, open-source text expander for Windows (Mac/Linux apps coming soon!)**
-
 <img width="500" height="322" alt="image" src="https://github.com/user-attachments/assets/0b5b2e0f-1b6f-47dd-9609-ff809f0ba85c" />
+![Untitled video](https://github.com/user-attachments/assets/b29ec144-9a06-439b-bb69-61751eb96a90)
+![Untitled video (1)](https://github.com/user-attachments/assets/b2a31e96-b284-47a7-9fc5-5bd6b69123c1)
 <img width="500" height="322" alt="image" src="https://github.com/user-attachments/assets/d9600c2c-2ffe-4809-a201-dcb28397832d" />
 
 OpenKeyFlow lets you define custom text snippets that expand automatically as you type — ideal for quick replies, IT workflows, or any repetitive plaintext. Purpose-built, lightweight, secure, and built to stay free and open for everyone. Built with Python, under the GNU General Public License. 
