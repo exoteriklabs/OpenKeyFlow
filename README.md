@@ -9,7 +9,7 @@ OpenKeyFlow lets you define custom text snippets that expand automatically as yo
 Download for Windows here:
 https://github.com/exoteriklabs/OpenKeyFlow/releases/download/release/OpenKeyFlow-v0.0.1.zip
 
-Windows SHA256 Hash:
+Windows SHA256 Hash (OpenKeyFlow-v0.0.1.zip):
 D285C00096AC355C4C81D357D5CB578BE7F044C562270241B326C0D144427AA0
 
 ---
