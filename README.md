@@ -6,6 +6,9 @@
 
 OpenKeyFlow lets you define custom text snippets that expand automatically as you type — ideal for quick replies, IT workflows, or any repetitive plaintext. Purpose-built, lightweight, secure, and built to stay free and open for everyone. Built with Python, under the GNU General Public License. 
 
+Download for Windows here:
+https://github.com/exoteriklabs/OpenKeyFlow/releases/download/release/OpenKeyFlow-v0.0.1.zip
+
 ---
 
 ## Features
