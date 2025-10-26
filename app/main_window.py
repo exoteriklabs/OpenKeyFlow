@@ -301,7 +301,7 @@ class MainWindow(QtWidgets.QMainWindow):
         help_btn.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         help_btn.clicked.connect(
             lambda: QtGui.QDesktopServices.openUrl(
-                QtCore.QUrl("https://github.com/exoteriklabs/openkeyflow/main/README.md")
+                QtCore.QUrl("https://github.com/exoteriklabs/OpenKeyFlow/blob/main/README.md")
             )
         )
 
