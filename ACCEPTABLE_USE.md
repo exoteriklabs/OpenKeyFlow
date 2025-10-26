@@ -21,5 +21,11 @@ By downloading or using OpenKeyFlow, you agree to use it responsibly
 and within the bounds of all applicable laws.
 
 ---
+© 2025 OpenKeyFlow — ExoterikLabs 
+---
 
-© 2025 OpenKeyFlow — ExoterikLabs - Under the GNU GPL v3 license
+OpenKeyFlow is distributed under the GNU GPL v3 license and intended for lawful, ethical use only.  
+The author(s) disclaim all liability for damages or misuse arising from violation of this policy.
+
+---
+
