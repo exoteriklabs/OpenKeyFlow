@@ -46,9 +46,8 @@ If the issue is critical, we will:
 
 - One-time Acceptable Use popup at launch
 - No external API calls or internet access during runtime
-- Hotkey listener sandboxed within app environment
-- Optional data wipe on app close
 - PyInstaller used with minimal flags to avoid tampering
+- (in-progress)Optional data wipe on app close
 - (in-progress)AES-encrypted storage of `okf_data/` contents
 
 ---
