@@ -1,24 +1,33 @@
-# OpenKeyFlow-BETA
-**Free, open-source text expander for Windows, Mac and Linux.--BETA/INPRODUCTION**  
+# OpenKeyFlow
+**Free, open-source text expander for Windows (Mac/Linux apps coming soon!)**
 
-OpenKeyFlow lets you define custom text snippets that expand automatically as you type — ideal for quick replies, IT workflows, or any repetitive plaintext. Purpose-built, lightweight, secure, and built to stay free and open for everyone. 
+<img width="500" height="322" alt="image" src="https://github.com/user-attachments/assets/0b5b2e0f-1b6f-47dd-9609-ff809f0ba85c" />
+<img width="500" height="322" alt="image" src="https://github.com/user-attachments/assets/d9600c2c-2ffe-4809-a201-dcb28397832d" />
+
+OpenKeyFlow lets you define custom text snippets that expand automatically as you type — ideal for quick replies, IT workflows, or any repetitive plaintext. Purpose-built, lightweight, secure, and built to stay free and open for everyone. Built with Python, under the GNU General Public License. 
 
 ---
 
 ## Features
 
--  **Instant expansion** — type a short trigger (e.g. `-email1`) and watch it expand immediately.  
+-  **Instant text expander** — type a short trigger (e.g. `-email1`) and watch it type immediately.  
 -  **Persistent storage** — saves your hotkeys and expansions in a simple JSON file.  
 -  **CSV import/export** — manage or share your hotkey lists easily from a CSV.  
--  **Autostart option** — run silently in your tray at login and startup.
--  **Local-only** — no network access, no data collection, built with 
+-  **Autostart** — run silently in your tray at login and startup.
+-  **Local-only** — no network access, no data collection outside of the JSON/CSV, built with security in mind.
+-  **Special Add** - use triggers for multiple lines of text (emails, signatures, code, etc.)
+-  **More coming soon!**
 
 ---
 
 ## Getting Started
 
+### Download/Run the app/.exe from the Releases folder
+- You can go to the "Releases" folder directly from the GitHub repo to download whichever version you need.
+- Data folder with .exe must reside in the same location.
+
 ### Requirements
-- Windows 10 or 11 
+- Windows 10 or 11 (Mac/Linux requirements coming soon)
 - Python 3.10+ (if running from source)  
 - Or download the pre-built `.exe` from [Releases](#)
 
@@ -29,51 +38,52 @@ OpenKeyFlow lets you define custom text snippets that expand automatically as yo
    python -m pip install -r requirements.txt
    ```
 
-   The requirements file uses platform markers, so the Windows-only
-   dependency (`pywin32`) is skipped automatically on macOS and Linux.
-   If the launcher still reports missing packages, confirm you installed
-   them for the same interpreter you're using to run the app:
+2. Launch the GUI:
 
    ```bash
-   python -m pip show PyQt5
-   ```
-
-   Replace `python` with the exact interpreter path if you work with
-   multiple environments.
-
-   pip install -r requirements.txt
-   ```
-
-2. Launch the GUI using whichever entry point is most convenient:
-
-   ```bash
-   # Standard console entry point
+   # Console
    python openkeyflow.py
 
-   # Module form (works the same way)
+   # Module form (works same way)
    python -m app
    ```
+   
+### How to use it:
+<img width="566" height="122" alt="image" src="https://github.com/user-attachments/assets/78850a26-02e8-48ce-ae62-e8e7e212a556" />
 
-   On Windows you can also double-click `OpenKeyFlow.pyw` after installing the
-   requirements. The `.pyw` extension opens the GUI without spawning a console
-   window, making it feel more like a native app shortcut. If a dependency is
-   missing, launching `python openkeyflow.py` will point out exactly which
-   package to install.
-   window, making it feel more like a native app shortcut.
+1. Enter the hotkey that you want to use at the top left corner of the app, then the the output you want it set to. Hit the add button or the enter key to add it to your hotkey list. 
+
+![Untitled video](https://github.com/user-attachments/assets/320d777a-143f-43a8-9bdf-d1d68c394a24)
+
+2. After that, test it out!
+
+<img width="234" height="130" alt="image" src="https://github.com/user-attachments/assets/8ee6c77d-4f78-4775-8cdd-326943c6d944" />
+
+3. Ctrl + F12 will enable/disable OpenKeyFlow anytime. Closing the app window will not quit/kill the app. To completely close OpenKeyFlow, right click on the red/green dot on the systray and click "Quit".
+
 
 ### Why I Built This
-I wanted a text expander app that was fast, secure, lightweight and open source. I've been an avid user of tools like AutoHotKey and AutoText for many years. However, I wasn't interested in using these tools for scripting or automation and just needed an app to expand plaintext for IT ticket entries and repetitive emails. Because programs like this monitor your keyboard waiting for a trigger, using AutoHotKey or AutoText became less feasible for security reasons (i.e. they both have internet access, AutoText is closed source, AutoHotKey scripting can be used malciously and remotely). With this all this in mind and some Python knowledge, OpenKeyFlow was born! 
+I wanted a text expander app that was fast, secure, lightweight and open source. AutoHotKey and AutoText are fine/OK and I've used them for many years. However, I wasn't interested in using these tools for scripting or automation and just needed an app to expand plaintext for IT ticket entries and repetitive emails. Because programs like this monitor your keyboard, using AutoHotKey or AutoText became less "reassuring" to use for security reasons (AutoHotKey runs scripts, AutoText isn't open source). With this all this in mind and some Python knowledge, OpenKeyFlow was born!  
 
 ### FAQ
 
 Q: Is OpenKeyFlow safe?
-A: OpenKeyFlow is designed to be an offline, local-only Windows app. It does not auto update or reach the internet and th 
 
-Q: Can I use it at work or school?
-A: Absolutely. 
-
+A: OpenKeyFlow is designed to be an offline, local-only desktop app. It does not auto update (yet) or reach the internet. So, yes it is safe to use. That said, with it being open source, this doesn't stop "bad guys" from using this to create something malicious and then pretend to be their own keyboard expander app. It's always important to know -where- your software comes from! You will -only- see the official releases of OpenKeyFlow on the official GitHub repo.
+_____________________________________________________________
 Q: Can I contribute?
-A: Yes! Pull requests and feedback are welcome. Please follow the GPL v3 license.
 
+A: Yes! Pull requests and feedback are welcome, please follow the GNU GPL v3 license. If you'd like to donate to the project as well, you can follow the link here:
+
+https://buymeacoffee.com/exoteriklabs
+_____________________________________________________________
 Q: Will there be updates?
-A: Definitely. I am one person on 
+
+A: Definitely. I am one person building this as a personal project and have a full time job so I try to update/fix things when I can. If you have suggestions of your own, feel free to reach out! 
+_____________________________________________________________
+
+If you have any questions/comments about the project, email me at github@conormail.slmail.me.
+OpenKeyFlow is distributed under the GNU GPL v3 license and intended for lawful, ethical use only.  
+© 2025 OpenKeyFlow — ExoterikLabs
+
+
