@@ -1,5 +1,5 @@
 # OpenKeyFlow
-**Free, open-source text expander for Windows (Mac/Linux apps coming soon!)**
+**Free, secure and open-source text expander for Windows (Mac/Linux apps coming soon!)**
 <img width="500" height="322" alt="image" src="https://github.com/user-attachments/assets/0b5b2e0f-1b6f-47dd-9609-ff809f0ba85c" />
 ![Untitled video](https://github.com/user-attachments/assets/b29ec144-9a06-439b-bb69-61751eb96a90)
 ![Untitled video (1)](https://github.com/user-attachments/assets/b2a31e96-b284-47a7-9fc5-5bd6b69123c1)
