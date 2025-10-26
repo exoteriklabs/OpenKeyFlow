@@ -70,13 +70,13 @@ D285C00096AC355C4C81D357D5CB578BE7F044C562270241B326C0D144427AA0
 
 
 ### Why I Built This
-I wanted a text expander app that was fast, secure, lightweight and open source. AutoHotKey and AutoText are fine/OK and I've used them for many years. However, I wasn't interested in using these tools for scripting or automation and just needed an app to expand plaintext for IT ticket entries and repetitive emails. Because programs like this monitor your keyboard, using AutoHotKey or AutoText became less "reassuring" to use for security reasons (AutoHotKey runs scripts, AutoText isn't open source). With this all this in mind and some Python knowledge, OpenKeyFlow was born!  
+I wanted a text expander app that was fast, secure, lightweight and open source. AutoHotKey and AutoText are fine/OK and I've used them for many years. However, I wasn't interested in using these tools for scripting or automation and just needed an app to expand plaintext for IT ticket entries and repetitive emails. Because programs like this monitor your keyboard, using AutoHotKey or AutoText became less "reassuring" to use for security reasons (AutoHotKey runs scripts, AutoText isn't open source). With all this in mind and some Python knowledge, OpenKeyFlow was born!  
 
 ### FAQ
 
 Q: Is OpenKeyFlow safe?
 
-A: OpenKeyFlow is designed to be an offline, local-only desktop app. It does not auto update (yet) or reach the internet. So, yes it is safe to use. That said, with it being open source, this doesn't stop "bad guys" from using this to create something malicious and then pretend to be their own keyboard expander app. It's always important to know -where- your software comes from! You will -only- see the official releases of OpenKeyFlow on the official GitHub repo.
+A: OpenKeyFlow is designed to be an offline, local-only desktop app. It does not auto update (yet) or reach the internet. So, yes it is safe to use. That said, with it being open source, this doesn't stop "bad guys" from using this to create something malicious and then pretend to be their own keyboard expander app. It's always important to know -where- your software comes from! You will only see OpenKeyFlow on the official GitHub repo.
 _____________________________________________________________
 Q: Can I contribute?
 
@@ -86,7 +86,7 @@ https://buymeacoffee.com/exoteriklabs
 _____________________________________________________________
 Q: Will there be updates?
 
-A: Definitely. I am one person building this as a personal project and have a full time job so I try to update/fix things when I can. If you have suggestions of your own, feel free to reach out! 
+A: Definitely. I am one person building this and I have a full time job so updates/fixes may take longer than expected. If you have suggestions of your own, feel free to reach out! 
 _____________________________________________________________
 
 If you have any questions/comments about the project, email me at github@conormail.slmail.me.
