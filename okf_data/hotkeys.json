@@ -1,0 +1,11 @@
+{
+    "-irco": "-Issue resolved, closing out",
+    "-ri": "-Remote in",
+    "-ssh": "-SSH in",
+    "-li": "-Logging in",
+    "-ackal": "-Acknowledging alert",
+    "-revlog": "-Reviewing/exporting logs >>",
+    "email1": "johndoe@company.com",
+    "--emsign": "John Doe\nExoterikLabs\nemail@company.com\n111-222-3333",
+    "hotkey1": "This is your first hotkey!"
+}

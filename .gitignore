@@ -2,6 +2,9 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.pyc
+*.pyo
+*.pyd
 
 # C extensions
 *.so
@@ -29,8 +32,13 @@ MANIFEST
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
+build/
+dist/
 *.manifest
 *.spec
+
+# Logs
+*.log
 
 # Installer logs
 pip-log.txt
@@ -205,3 +213,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+node_modules
+
+
+

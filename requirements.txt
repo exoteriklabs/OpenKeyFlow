@@ -1,0 +1,6 @@
+keyboard
+pystray
+pyperclip
+PyQt5
+pywin32
+
