@@ -58,7 +58,7 @@ D285C00096AC355C4C81D357D5CB578BE7F044C562270241B326C0D144427AA0
 ### How to use it:
 <img width="566" height="122" alt="image" src="https://github.com/user-attachments/assets/78850a26-02e8-48ce-ae62-e8e7e212a556" />
 
-1. Enter the hotkey that you want to use at the top left corner of the app, then the the output you want it set to. Hit the add button or the enter key to add it to your hotkey list. 
+1. Enter the hotkey you want to use at the top left corner of the app, then add the output you want. Select the add button or press the enter key to add it to your hotkey list. 
 
 ![Untitled video](https://github.com/user-attachments/assets/320d777a-143f-43a8-9bdf-d1d68c394a24)
 
