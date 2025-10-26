@@ -83,7 +83,9 @@ A: Definitely. I am one person building this as a personal project and have a fu
 _____________________________________________________________
 
 If you have any questions/comments about the project, email me at github@conormail.slmail.me.
-OpenKeyFlow is distributed under the GNU GPL v3 license and intended for lawful, ethical use only.  
+
+**OpenKeyFlow is distributed under the GNU GPL v3 license and intended for lawful, ethical use only.**
+
 © 2025 OpenKeyFlow — ExoterikLabs
 
 
