@@ -78,6 +78,7 @@ Security researchers, ethical hackers, and responsible testers!
 ---
 
 **OpenKeyFlow is distributed under the GNU GPL v3 license and intended for lawful, ethical use only.**
+
 © 2025 OpenKeyFlow — ExoterikLabs
 
 
